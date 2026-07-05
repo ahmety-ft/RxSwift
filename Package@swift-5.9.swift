@@ -107,7 +107,7 @@ let package = Package(
             .library(name: "RxRelay-Dynamic", type: .dynamic, targets: ["RxRelay"]),
             .library(name: "RxBlocking-Dynamic", type: .dynamic, targets: ["RxBlocking"]),
             .library(name: "RxTest-Dynamic", type: .dynamic, targets: ["RxTest"]),
-            .library(name: "RxAllDynamic", type: .dynamic, targets: ["RxSwift","RxRelay","RxCocoa","RxBlocking","RxTest"])
+            .library(name: "RxAllDynamic", type: .dynamic, targets: ["RxSwift","RxRelay","RxCocoa","RxBlocking"])
         ],
         Product.rxCocoaProducts(),
         Product.allTests()
